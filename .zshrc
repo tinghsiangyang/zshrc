@@ -110,8 +110,8 @@ ZS_THEME="powerlevel10k/powerlevel10k"H
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-        zsh-autosuggestions
-        zsh-syntax-highlighting
+        zsh-autosuggestions # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+        zsh-syntax-highlighting # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
         extract
         z
         vscode
